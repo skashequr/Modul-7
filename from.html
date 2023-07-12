@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav a{
+           
+            text-decoration: none;
+            color: black;
+            
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        .lg{
+            display: flex;
+            justify-content: center;
+            height: 90vh;
+
+        }
+        .log-in{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+            
+            
+        }
+        .log-in input{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <div>
+        <a href="">About</a>
+        <a href="">Gallery</a>
+        <a href="">Service</a>
+        <a href="">Blog</a>
+    </div>
+    <div>
+        <a href="">Login</a>
+    </div>
+</nav>
+<section class="lg">
+    <from class="log-in">
+        <h3>Plese Login</h3>
+        <input type="text" placeholder="Input your User Name" required  >
+        <input type="password" placeholder="Input your password" required>
+        <button >Login</button>
+    </from>
+</section>
+</body>
+</html>
